@@ -1,0 +1,49 @@
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+.content__item {
+  display: flex;
+  justify-content: space-between;
+}
+.left img {
+  width: 250px;
+  height: 200px;
+  padding-right: 10px;
+}
+.right img {
+  width: 400px;
+}
+.left,
+.right {
+  padding: 0 10px;
+}
+.left p {
+  width: 300px;
+  text-align: justify;
+}
+.right p {
+  width: 400px;
+  text-align: justify;
+}
+.left__item {
+  display: flex;
+  padding-top: 30px;
+  border-bottom: 1px solid black;
+}
+.advertising {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+
+.advertising-item img {
+  width: 220px;
+  height: 180px;
+}
+.advertising-card p {
+  color: black;
+  text-decoration: none;
+}
+.advertising a {
+  text-decoration: none;
+}
